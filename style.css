@@ -28,16 +28,81 @@
   font-size: 13px;
 }
 .bgColor{
-  background-color: #d5edf8;
-  text-align: center;
+  background-color: rgb(201, 235, 241);
+  flex-wrap: wrap;
   border-radius: 10px;
+  transition: all 0.2s linear;
   &:hover{
     box-shadow: 0px 0px 5px 1px #afadad;
   }
+  
 }
+
 .numberstyle{
   color: #038cfd;
   font-size: 30px;
   font-weight: 600;
-  margin: 0;
+  margin-top: 0;
+}
+.imgIcon{
+  width: 70px;
+  padding: 10px;
+  box-sizing: content-box;
+}
+.imgIcon:hover{
+  opacity: 1;
+}
+.services-container{
+  background-color: #ebf3f6;
+  padding: 30px;
+}
+.service-card{
+  border: 1px solid #edeaea;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: #ffffff;
+}
+.callSection-card{
+  background-color: #8690ec;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 7px;
+  box-sizing: content-box;
+}
+.portfolioCard{
+  width: 100%;
+  padding-bottom: 15px;
+}
+.icon{
+  font-size: 17px;
+  color: #ffffff;
+  background: #038cfd;
+  height: 45px;
+  width: 45px;
+  border-radius: 5px;
+  line-height: 45px;
+  text-align: center;
+}
+.footerContainer{
+  background-color: rgb(183, 210, 227);
+  padding: 20px;
+}
+.footerIcon{
+  display: inline-block;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 45px; /* Center vertically */
+  font-size: 18px;
+  color: #007bff;
+  height: 45px;
+  width: 45px;
+}
+ul{
+  list-style: none;
+  text-decoration: none !important;
+  padding-left: 10px;
 }
